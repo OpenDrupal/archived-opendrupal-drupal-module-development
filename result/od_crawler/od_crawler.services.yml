@@ -1,0 +1,7 @@
+services:
+  od_crawler.html_loader:
+    class: Drupal\od_crawler\HtmlLoader\HtmlLoader
+    arguments: ['@http_client']
+  plugin.manager.html_processor:
+    class: Drupal\od_crawler\HtmlProcessorManager
+    parent: default_plugin_manager

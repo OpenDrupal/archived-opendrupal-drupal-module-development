@@ -1,0 +1,9 @@
+entity.endpoint.collection:
+  title: 'List'
+  route_name: entity.endpoint.collection
+  base_route: entity.endpoint.collection
+
+od_crawler.endpoint.data:
+  title: 'Data'
+  route_name: od_crawler.endpoint.data
+  base_route: entity.endpoint.collection

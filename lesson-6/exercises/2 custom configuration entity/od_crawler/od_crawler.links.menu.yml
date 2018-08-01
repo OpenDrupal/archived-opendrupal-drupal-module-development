@@ -1,0 +1,9 @@
+
+# Crawler endpoint menu items definition
+entity.endpoint.collection:
+  title: 'Crawler endpoint'
+  route_name: entity.endpoint.collection
+  description: 'List Crawler endpoint (bundles)'
+  parent: system.admin_structure
+  weight: 99
+

@@ -1,0 +1,5 @@
+name: Open Drupal Webservice Data
+type: module
+description: Stores data fetched by the Open Drupal HTML webservice client for the Open Drupal Drupal 8 module development training.
+core: 8.x
+package: Open Drupal 

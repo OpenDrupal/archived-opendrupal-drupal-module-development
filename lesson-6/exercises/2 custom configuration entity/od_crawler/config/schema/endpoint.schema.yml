@@ -1,0 +1,12 @@
+od_crawler.endpoint.*:
+  type: config_entity
+  label: 'Crawler endpoint config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    uuid:
+      type: string

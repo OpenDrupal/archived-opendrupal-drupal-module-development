@@ -1,0 +1,15 @@
+od_pegi.games_overview:
+  path: '/games'
+  defaults:
+    _controller: '\Drupal\od_pegi\Controller\OdPegiController::gamesOverview'
+    _title: 'Games'
+  requirements:
+    _permission: 'access content'
+
+od_pegi.settings:
+  path: '/admin/config/content/od_pegi'
+  defaults:
+    _form: '\Drupal\od_pegi\Form\OdPegiSettingsForm'
+    _title: 'Pegi settings'
+  requirements:
+    _permission: 'administer site configuration'

@@ -1,0 +1,5 @@
+od_pegi.settings:
+  title: 'Pegi settings'
+  base_route_name: od_pegi.settings
+  names:
+    - od_pegi.settings

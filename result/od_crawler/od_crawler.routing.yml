@@ -1,0 +1,39 @@
+entity.endpoint.collection:
+  path: '/admin/config/services/od_crawler'
+  defaults:
+    _entity_list: 'endpoint'
+    _title: 'Open Drupal crawler'
+  requirements:
+    _permission: 'administer open drupal crawler'
+
+entity.endpoint.add_form:
+  path: '/admin/config/services/od_crawler/add'
+  defaults:
+    _entity_form: 'endpoint.add'
+    _title: 'Add crawler'
+  requirements:
+    _permission: 'administer open drupal crawler'
+
+entity.endpoint.edit_form:
+  path: '/admin/config/services/od_crawler/{endpoint}'
+  defaults:
+    _entity_form: 'endpoint.edit'
+    _title: 'Edit crawler'
+  requirements:
+    _permission: 'administer open drupal crawler'
+
+entity.endpoint.delete_form:
+  path: '/admin/config/services/od_crawler/{endpoint}/delete'
+  defaults:
+    _entity_form: 'endpoint.delete'
+    _title: 'Delete crawler'
+  requirements:
+    _permission: 'administer open drupal crawler'
+
+od_crawler.endpoint.data:
+  path: '/admin/config/services/od_crawler/data'
+  defaults:
+    _controller: '\Drupal\od_crawler\Controller\DisplayController::receivedData'
+    _title: 'Dom Data'
+  requirements:
+    _permission: 'administer open drupal crawler'

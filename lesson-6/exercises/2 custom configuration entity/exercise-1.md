@@ -1,0 +1,35 @@
+# Custom configuration entity - Exercise 1
+Estimated time: 90 minutes.
+
+As site owner I want to gather data from various URLs. From each URL I want different types data to be collected.
+
+## Step 1
+Create a basic configuration entity for crawler endpoints.
+
+- Create a configuration entity that stores the endpoints that will be crawled.
+  - This includes:
+    - Entity definition (Class: Endpoint)
+    - Forms to add/edit/delete the entity.
+    - Overview page with list of endpoints
+  - Either use Drush or Drupal Console, or copy the files from configuration-entity/od_crawler/* in this exercise folder.
+- Modify the Endpoint class so that it stores:
+  - ID: Unique ID for each endpoint
+  - Label: The human readlable name of the endpoint
+  - URL: The URL of the endpoint
+- Modify the forms and the overview page to match the stored data.
+- Add methods to the Endpoint class for:
+  - The endpoint URL
+- Add the method(s) to the EndpointInterface.
+- Create one or two endpoint entities to check the result.
+
+## Step 2
+Extend the configuration entity to handle the HTML processors.
+
+- Extend the configuration entity to store one or more HTML processors that can be applied to the endpoint DOM data.
+  - The entity should store multiple IDs of HTML processors per endpoint.
+- Modify the forms for this data.
+- Add a method for:
+  - The processors for this endpoint
+  - A list of available endpoints.
+- Add the method(s) to the EndpointInterface.
+- Create an endpoint to check the result.

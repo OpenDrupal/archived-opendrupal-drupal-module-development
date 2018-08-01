@@ -1,0 +1,8 @@
+name: Open Drupal Pegi Configuration
+type: module
+description: 'Installable configuration for Open Drupal Pegi exercises.'
+package: Open Drupal 
+version: 8.x-1.x
+core: 8.x
+dependencies:
+  - drupal:entity_reference

@@ -1,0 +1,4 @@
+od_pegi.settings:
+  title: Pegi
+  route_name: od_pegi.settings
+  base_route: system.admin_config_content

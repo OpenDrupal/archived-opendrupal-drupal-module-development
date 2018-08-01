@@ -1,0 +1,26 @@
+# Custom plugin type - Exercise 3
+Estimated time: 90 minutes.
+
+As site owner I want to gather various types of data from the sites.
+Types of data: H1 tag, Page language, Processor meta tag
+
+- Determine the scope and the functionality of the plugin.
+  - What is the overall functionality?
+  - What role does the plugin play in it?
+- Determine the interface of the plugin.
+  - What data will the plugin receive, in which form?
+  - What data will the plugin return, in which form?
+- Write the (pseudo) code in the parser service that calls the plugin and handles the return data.
+- Create a plugin manager for annotation type plugins. 
+  - This includes:
+    - Annotation definition class (extends Drupal\Component\Annotation\Plugin).
+    - Plugin manager and its interface (class: HtmlProcessor;
+      name: html_processor).
+    - Plugin base class (extends Drupal\Component\Plugin\PluginBase)
+  - Either use Drush or Drupal Console, or copy the files from plugin/od_crawler/* in this exercise folder.
+- Write the first plugin.
+  - Call a plugin from the parser service to check the result.
+- Evaluate and rework
+  - Does the plugin match the interface design and the overall functionality?
+  - Is the interface re-usable for other plugins?
+  - Is the OO structure correct and not over-designed?

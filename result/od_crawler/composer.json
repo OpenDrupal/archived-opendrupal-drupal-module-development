@@ -1,0 +1,16 @@
+{
+  "name": "Open Drupal Crawler",
+  "description": "An HTML crawler to be used during the Open Drupal Drupal 8 module development training.",
+  "type": "drupal-module",
+  "license": "GPL-2.0",
+  "authors": [
+    {
+      "name": "Erik Stielstra"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "mgargano/simplehtmldom": "~1.5"
+  }
+}
