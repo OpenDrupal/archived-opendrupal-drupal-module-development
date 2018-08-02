@@ -33,9 +33,9 @@ As site owner I want to gather various types of data from the sites. And I forse
 
 --vv--
 
-# Configurable per URL
+# Configuration entity per URL
 As site owner I want to gather data from various URLs. From each URL I want different types data to be collected.
 
 - Create a configuration entity that stores per URL which types of data are collected.
-- More details in: exercises/1 custom plugin type/exercise-4.md.
+- More details in: exercises/2 custom configuration entity/exercise-1.md and exercise-2.md.
 
