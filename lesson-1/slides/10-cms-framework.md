@@ -16,4 +16,4 @@
 - Build with contributed modules.
 - DON'T HACK CORE!
 - Custom modules are often _glue code_, sometimes independent functionality.
-- Use the framework voor ease and security.
+- Use the framework for ease and security.
