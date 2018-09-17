@@ -4,11 +4,10 @@
 
 # Drupal root directory
 - index.php
-- core directory
-- sites directory
+- core, sites directory
 - modules, themes, profiles directories
 
-![Module directories](lesson-1/slides/images/files-drupal-root.png) <!-- .element: style="width: 30%;" -->
+![Module directories](lesson-1/slides/images/files-drupal-root.png) <!-- .element: style="width: 18%;" -->
 
 --vv--
 
@@ -16,19 +15,16 @@
 - Custom modules in `modules/custom`
 - Module directory = module name
 
-![Module directories](lesson-1/slides/images/files-root-modules.png) <!-- .element: style="width: 30%;" -->
+![Module directories](lesson-1/slides/images/files-root-modules.png) <!-- .element: style="width: 25%;" -->
 
 --vv--
 
 # Module directory
-- MODULE.info.yml
-- src
-- config
-- MODULE.*.yml
-- MODULE.install
-- MODULE.module
+- MODULE.info.yml, *.yml
+- MODULE.install, .module
+- src, config
 
-![Module directory content](lesson-1/slides/images/files-module.png) <!-- .element: style="width: 20%;" -->
+![Module directory content](lesson-1/slides/images/files-module.png) <!-- .element: style="width: 22%;" -->
 
 --vv--
 

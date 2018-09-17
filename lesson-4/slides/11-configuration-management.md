@@ -5,7 +5,7 @@
 # Configuration Management
 - Replacing Features as OTAP tool.
 - Terminology: Export & Import
-- Note: Destination MUST be a clone of the source database (same UUID's).
+- Destination MUST be a clone of the source database (same UUID's).
 - CM is site-based, not module based. e.g. OTAP is supported, distributions are limited.
 - Configuration is exported/imported using Yaml-formatted files.
 

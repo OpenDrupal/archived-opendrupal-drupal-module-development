@@ -3,7 +3,7 @@
 --vv--
 
 # Outline
-<!-- .slide: class="layout-two-col" style="font-size: 90%;"-->
+<!-- .slide: class="layout-two-col" style="font-size: 80%;"-->
 
 - [Lesson 1](lesson-1.html)
   - Drupal as framework

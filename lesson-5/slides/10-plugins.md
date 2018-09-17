@@ -5,7 +5,7 @@
 # Plugins
 - Plugins are not modules.
 - Plugins are...
-  - Action, AggregatorFetcher, AggregatorParser, AggregatorProcessor, Archiver, Block, CKEditor, Condition, config_translation, Constraint, ContextualLink, DataType, Editor, EntityReferenceSelection, EntityType, FieldFormatter, FieldType, FieldWidget, Filter, Formatter, ImageEffect, ImageToolkit, InPlaceEditor, LanguageNegotiationMethod, LocalAction, LocalTask, Mail, MigrateProcess, Resource, RestResource, Search, Selection, Test, Tip, TypedData, Views, ViewsHandler, Widget.
+  - Action, AggregatorFetcher, AggregatorParser, AggregatorProcessor, Archiver, Block, CKEditor, Condition, config_translation, Constraint, ContextualLink, DataType, Editor, EntityReferenceSelection, EntityType, FieldFormatter, FieldType, FieldWidget, Filter, Formatter, ImageEffect, ImageToolkit, InPlaceEditor, LanguageNegotiationMethod, LocalAction, LocalTask, Mail, MigrateProcess, Resource, RestResource, Search, Selection, Test, Tip, TypedData, Views, ViewsHandler, Widget. <!-- .element: style="font-size: 80%;" -->
 
 --vv--
 

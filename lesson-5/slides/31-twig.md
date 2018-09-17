@@ -4,7 +4,7 @@
 
 # The theming layer
 
-![Flow diagram of theming data](lesson-5/slides/images/theme-data-diagram.png) <!-- .element: style="width: 35%;" -->
+![Flow diagram of theming data](lesson-5/slides/images/theme-data-diagram.png) <!-- .element: style="width: 30%;" -->
 
 --vv--
 
@@ -93,7 +93,6 @@ id="node-{{ node.id }}”
 {{ example(...) }}
 ```
 
-- Twig functions:
 - addClass()
 - removeClass()
 - parent()
@@ -118,7 +117,6 @@ More: http://twig.sensiolabs.org/doc/functions/index.html
 {{ ...|example }}
 ```
 
-- Twig filters:
 - join()
 - escape
 - replace()
@@ -215,4 +213,4 @@ More: http://twig.sensiolabs.org/doc/filters/index.html
 
 # (Template) override
 
-![Diagram of template override](lesson-5/slides/images/theme-template-override-diagram.png) <!-- .element: style="width: 60%;" -->
+![Diagram of template override](lesson-5/slides/images/theme-template-override-diagram.png) <!-- .element: style="width: 50%;" -->

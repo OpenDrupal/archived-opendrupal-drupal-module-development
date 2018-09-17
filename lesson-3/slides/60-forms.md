@@ -21,7 +21,7 @@ $form['name'] = array(
 
 # Form flow
 
-![Data flow diagram of form submission](lesson-3/slides/images/form-processing-diagram.png) <!-- .element: style="width: 60%;" -->
+![Data flow diagram of form submission](lesson-3/slides/images/form-processing-diagram.png) <!-- .element: style="width: 50%;" -->
 
 --vv--
 

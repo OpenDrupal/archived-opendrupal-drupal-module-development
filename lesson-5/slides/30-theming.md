@@ -73,11 +73,10 @@
 - toolbar_item
 - view
 
-
 --vv--
 
 # Form elements
-<!-- .slide: class="layout-three-col" style="font-size: 80%;"-->
+<!-- .slide: class="layout-three-col" style="font-size: 70%;"-->
 
 @FormElement
 
