@@ -1,5 +1,5 @@
 # Open Drupal Drupal 8 module development course
-This course is part of the [Open Drupal curriculum](https://opendrupal.github.com).
+This course is part of the [Open Drupal curriculum](https://opendrupal.github.io).
 
 This course will provide you with fundamental knowledge of the Drupal 8 API and how to use it to create your own modules.
 
