@@ -61,7 +61,7 @@ tags: Service tag. Additional service processing using a Compiler Pass.
 --vv--
 
 # Notes
-- Debug service container: <br>`Drupal::service("kernel")->getCachedContainerDefinition();`
+- Debug service container: <br>`Drupal::service("kernel")`<br>`->getCachedContainerDefinition();`
 - Documentation: Services and Dependency Injection
   - https://drupal.org/node/2133171
   - http://symfony.com/doc/current/book/service_container.html

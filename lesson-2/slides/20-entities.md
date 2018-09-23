@@ -43,7 +43,7 @@ $this->entityTypeManager = $container->get('entity_type.manager');
 $entity = $this->entityTypeManager->getStorage('entity_type')->load($entity_id);
 ```
 
-![Node UML diagram](lesson-2/slides/images/node-uml.png)
+![Node UML diagram](lesson-2/slides/images/node-uml.png)<!-- .element: style="width: 75%;" -->
 
 - EntityTypeManager: 'entity_type.manager' service
 - Manages entity type plugin definitions
@@ -62,7 +62,7 @@ $field_value = $node->get('field_name')->value;
 $field_value = $node->get('field_name')->get(0)->get('value')->getValue();
 ```
 
-![Typed Data UML diagram](lesson-2/slides/images/typed-data-uml.png)
+![Typed Data UML diagram](lesson-2/slides/images/typed-data-uml.png)<!-- .element: style="width: 100%;" -->
 
 - FieldItemListInterface:
 - List of van field items (may have only one list element).
@@ -83,7 +83,7 @@ $entity_ids = $query->condition('type', 'bundle_type')
   ->execute();
 ```
 
-![Entity Query UML diagram](lesson-2/slides/images/entity-query-uml.png)
+![Entity Query UML diagram](lesson-2/slides/images/entity-query-uml.png)<!-- .element: style="width: 75%;" -->
 
 - Query object:
   - Queries entities.
