@@ -1,6 +1,6 @@
 od_webservice.entity.html_client:
-  title: 'Open Drupal webservice'
-  description: 'Configure the Open Drupal webservices.'
+  title: 'OpenDrupal webservice'
+  description: 'Configure the OpenDrupal webservices.'
   route_name: entity.html_client.collection
   parent: system.admin_config_services
 

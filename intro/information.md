@@ -1,5 +1,5 @@
-# Open Drupal Drupal 8 module development course
-The Open Drupal Drupal 8 module development course provides you with fundamental knowledge of the Drupal 8 API and how to use it to create your own modules.
+# OpenDrupal Drupal 8 module development course
+The OpenDrupal Drupal 8 module development course provides you with fundamental knowledge of the Drupal 8 API and how to use it to create your own modules.
 
 During this course you will build some modules with Drupal 8 principles and Drupal API functions. In doing so, you also learn safety aspects of Drupal module development.
 
@@ -7,7 +7,7 @@ During this course you will build some modules with Drupal 8 principles and Drup
 The course is primarily aimed at Drupal back-end developers. But front-end developers will also benefit from this course.
 
 ## Starting level
-You have half a year of experience building sites in Drupal or you have followed the Open Drupal course Drupal fundamentals. You have at least one year experience with PHP and some experience with object oriented programming.
+You have half a year of experience building sites in Drupal or you have followed the OpenDrupal course Drupal fundamentals. You have at least one year experience with PHP and some experience with object oriented programming.
 
 ## End level
 After participating in this course you can develop a Drupal module according to best practices and understand existing Drupal code. As part of a team of Drupal developers you can write a simple Drupal module and understand other peoples code.

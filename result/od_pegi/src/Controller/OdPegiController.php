@@ -8,7 +8,7 @@ use Drupal\Core\Session\AccountProxyInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
- * Returns responses for Open Drupal Pegi module routes.
+ * Returns responses for OpenDrupal Pegi module routes.
  */
 class OdPegiController extends ControllerBase {
 

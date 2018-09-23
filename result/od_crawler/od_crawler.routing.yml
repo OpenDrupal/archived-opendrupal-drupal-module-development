@@ -2,7 +2,7 @@ entity.endpoint.collection:
   path: '/admin/config/services/od_crawler'
   defaults:
     _entity_list: 'endpoint'
-    _title: 'Open Drupal crawler'
+    _title: 'OpenDrupal crawler'
   requirements:
     _permission: 'administer open drupal crawler'
 

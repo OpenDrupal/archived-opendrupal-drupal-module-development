@@ -2,7 +2,7 @@ entity.html_client.collection:
   path: '/admin/config/services/od_webservice'
   defaults:
     _entity_list: 'html_client'
-    _title: 'Open Drupal webservice'
+    _title: 'OpenDrupal webservice'
   requirements:
     _permission: 'administer open drupal webservice'
 

@@ -1,7 +1,7 @@
-name: Open Drupal Pegi Configuration
+name: OpenDrupal Pegi Configuration
 type: module
-description: 'Installable configuration for Open Drupal Pegi exercises.'
-package: Open Drupal 
+description: 'Installable configuration for OpenDrupal Pegi exercises.'
+package: OpenDrupal 
 version: 8.x-1.x
 core: 8.x
 dependencies:

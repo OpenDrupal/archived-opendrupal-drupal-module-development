@@ -1,6 +1,6 @@
 od_crawler.entity.endpoint:
-  title: 'Open Drupal crawler'
-  description: 'Configure the Open Drupal crawler endpoints.'
+  title: 'OpenDrupal crawler'
+  description: 'Configure the OpenDrupal crawler endpoints.'
   route_name: entity.endpoint.collection
   parent: system.admin_config_services
 

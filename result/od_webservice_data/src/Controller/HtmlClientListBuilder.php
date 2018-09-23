@@ -6,7 +6,7 @@ use Drupal\Core\Config\Entity\ConfigEntityListBuilder;
 use Drupal\Core\Entity\EntityInterface;
 
 /**
- * Provides a listing of Open Drupal Webservice.
+ * Provides a listing of OpenDrupal Webservice.
  */
 class HtmlClientListBuilder extends ConfigEntityListBuilder {
   /**

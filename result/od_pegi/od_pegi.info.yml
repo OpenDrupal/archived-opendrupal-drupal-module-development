@@ -1,11 +1,11 @@
 # name is required.
-name: Open Drupal Pegi
+name: OpenDrupal Pegi
 # type is required. It can be 'module', 'theme' and 'profile'.
 type: module
 # description is shown on the module overview pages.
 description: 'Age restricted content using Pegi classification for Drupal 8 development training.'
 # package is used for grouping on the module overview page.
-package: Open Drupal 
+package: OpenDrupal 
 # version must match the drupal version number pattern.
 version: 8.x-1.x
 # core is required. It must match the drupal core version.

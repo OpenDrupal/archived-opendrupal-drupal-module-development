@@ -18,7 +18,7 @@ Create additional plugins and call multiple endpoint with them.
 ## Step 3
 Add a dedicated permission to the Endpoint configuration entity.
 
-- Create a permission 'Administer Open Drupal crawler'.
+- Create a permission 'Administer OpenDrupal crawler'.
 - Use the permission for administration of the content entity.
 - Use the permission for the page too.
 - Check the result.
