@@ -1,7 +1,0 @@
-services:
-  od_webservice.html_loader:
-    class: Drupal\od_webservice\HtmlLoader\HtmlLoader
-    arguments: ['@http_client']
-  plugin.manager.html_processor:
-    class: Drupal\od_webservice\HtmlProcessorManager
-    parent: default_plugin_manager
