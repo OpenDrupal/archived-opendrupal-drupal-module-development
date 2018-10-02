@@ -97,7 +97,7 @@ Display a list of links to game reviews inside the block.
 - Query and load the most recent reviews.
 - Format the output as links to the nodes.
 - (Optionally) make the maximum number of links configurable.
-- More exercise details in: _/04 content entity/exercise.php_.
+- More exercise details in: _lesson-2/exercises/3 content entity/exercises.txt_.
 
 --vv--
 

@@ -44,7 +44,7 @@
 Create a new Drupal module in which we will collect some general helpers that can be used in different projects.
 
 - Create a new Drupal module.
-- More exercise details in: <br>_exercises/1 first module/exercise.php_
+- More exercise details in: <br>_lesson-1/exercises/1 first module/exercises.txt_
 
 --vv--
 

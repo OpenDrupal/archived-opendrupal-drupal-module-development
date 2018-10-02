@@ -116,7 +116,7 @@ As a site administrator I want to configure the number of reviews on the Games o
 
 - Create a configuration form for the maximum number of reviews to be shown on the games overview page.
 - Add links to make the form appear on the configuration overview page.
-- More exercise details in: _/08 form/.../wizzlernPegiSettingsForm.php_.
+- More exercise details in: _lesson-3/exercises/4 form/.../exercises.txt_.
 
 --vv--
 

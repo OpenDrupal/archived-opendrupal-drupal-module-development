@@ -74,7 +74,7 @@ As a logged in user I want to have a page that lists all available games reviews
 
 - Create a page with a list of game review teasers at 
 - URL '/games'.
-- More exercise details in: _/05 page/.../WizzlernPegiController.php_.
+- More exercise details in: _lesson-3/exercises/1 page/exercises.txt_.
 
 --vv--
 

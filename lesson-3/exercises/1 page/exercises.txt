@@ -1,0 +1,49 @@
+Exercises to create a custom page with a list Game teasers.
+Estimated time: 30 min.
+
+==== Step 1 ====
+Create routing for the page.
+- Find in core an example of a page route.
+- Create a routing.yml file for the route definition of the Games Overview 
+  page. This route will use:
+  - Controller: OdPegiController::gamesOverview.
+  - URL: '/games'
+  - Page title: 'Games'
+- TIP: Use the fragments below to make the route.
+- Access to the page requires the permission to access content.
+
+--- Hints ---
+defaults:
+path:
+requirements:
+od_pegi.games_overview:
+_controller
+_permission
+_title
+
+==== Step 2 ====
+Load Game review nodes and output links to the nodes.
+- Use an entity query to load all published game reviews.
+- Find an example in core to format a node using the viewBuilder.
+- Use the viewBuilder to build the teaser view of the nodes.
+- Let the controller method return a list of teasers.
+- Also provide an empty text if no games are present.
+- Create or generate game review nodes and check the result.
+
+--- Hints ---
+$build['empty'] or '#empty'
+'#markup'
+entityTypeManager
+getViewBuilder()
+view()
+
+==== Step 3 (optional) ====
+Add a pager to the output list.
+- Find in core examples how to add a pager to the output.
+- Apply the pager with 5 items per page.
+- Check the result.
+
+--- Hints ---
+'#quantity'
+'#type' => 'pager'
+pager()

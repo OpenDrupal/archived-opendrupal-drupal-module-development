@@ -95,4 +95,4 @@ As a visitor I want to be able to browse all games of a certain rating using an 
 ![Screenshot of rendered icon with link](lesson-5/slides/images/pegi-field-formatter.png)
 
 - Create a custom field formatter for a Pegi rating entity reference field.
-- More exercise details in: _/11 plugin/exercise.php_.
+- More exercise details in: _lesson-5/exercises/1 plugin/exercises.txt_.

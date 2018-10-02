@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\wizzlern_crawler\Plugin;
+namespace Drupal\od_crawler\Plugin;
 
 use Drupal\Core\Plugin\DefaultPluginManager;
 use Drupal\Core\Cache\CacheBackendInterface;
@@ -24,10 +24,10 @@ class HtmlProcessorManager extends DefaultPluginManager {
    *   The module handler to invoke the alter hook with.
    */
   public function __construct(\Traversable $namespaces, CacheBackendInterface $cache_backend, ModuleHandlerInterface $module_handler) {
-    parent::__construct('Plugin/HtmlProcessor', $namespaces, $module_handler, 'Drupal\wizzlern_crawler\Plugin\HtmlProcessorInterface', 'Drupal\wizzlern_crawler\Annotation\HtmlProcessor');
+    parent::__construct('Plugin/HtmlProcessor', $namespaces, $module_handler, 'Drupal\od_crawler\Plugin\HtmlProcessorInterface', 'Drupal\od_crawler\Annotation\HtmlProcessor');
 
-    $this->alterInfo('wizzlern_crawler_html_processor_info');
-    $this->setCacheBackend($cache_backend, 'wizzlern_crawler_html_processor_plugins');
+    $this->alterInfo('od_crawler_html_processor_info');
+    $this->setCacheBackend($cache_backend, 'od_crawler_html_processor_plugins');
   }
 
 }

@@ -146,4 +146,4 @@ Implement ContainerFactoryPluginInterface to allow DI on plugins.
 As a developer I want to use dependency injection to include services in my objects.
 
 - Use dependency injection to load services in OO classes such as Controllers and Plugins.
-- More exercise details in: _/10 dependency injection/exercise.php_.
+- More exercise details in: _lesson-4/exercises/2 dependency injection/exercises.txt_.

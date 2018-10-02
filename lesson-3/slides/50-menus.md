@@ -75,7 +75,7 @@ As a vistor I want a 'Games' item in the main menu that links to the Games Revie
 ![Screenshot List of games](lesson-3/slides/images/pegi-new-games-list.png)
 
 - Add a menu link to the main menu.
-- More exercise details in: _/07 menu/wizzlern_pegi.links.menu.yml_.
+- More exercise details in: _lesson-3/exercises/3 menu/exercises.txt_.
 
 --vv--
 
@@ -83,7 +83,7 @@ As a vistor I want a 'Games' item in the main menu that links to the Games Revie
 As an editor I want to have a 'Add Game Review' button on the games overview page. This makes it easy to add new reviews.
 
 - Create an 'Add Game Review' action link.
-- More exercise details in: _/07 menu/exercise.php_.
+- More exercise details in: _lesson-3/exercises/3 menu/exercises.txt_.
 
 --vv--
 

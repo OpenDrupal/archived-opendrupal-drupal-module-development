@@ -123,7 +123,7 @@ As a visitor I want to see the Recent games block regularly updated when reviews
 
 - Use #cache settings to invalidate the cache when nodes are updated.
 - Make sure the block is also updated when games are added.
-- More exercise details in: _/06 caching/exercise.php_.
+- More exercise details in: _lesson-3/exercises/2 caching/exercises.txt_.
 
 --vv--
 

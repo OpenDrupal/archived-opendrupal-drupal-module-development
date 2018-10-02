@@ -16,9 +16,9 @@
 - 2 User stories: Game reviews, Web service
 - 2 Drupal 8 modules
 - Code in github
-  - https://github.com/wizzlern/drupal8-dev-training
-  - Exercises in numbered folders
-  - Final code: wizzlern_pegi, wizzlern_crawler
+  - https://github.com/opendrupal/opendrupal-drupal-module-development
+  - Exercises per lesson in numbered folders
+  - Final code in result folder: od_pegi, od_crawler
 
 --vv--
 

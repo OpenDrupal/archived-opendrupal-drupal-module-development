@@ -1,13 +1,13 @@
 <?php
 
-namespace Drupal\wizzlern_crawler\Annotation;
+namespace Drupal\od_crawler\Annotation;
 
 use Drupal\Component\Annotation\Plugin;
 
 /**
  * Defines a Html processor item annotation object.
  *
- * @see \Drupal\wizzlern_crawler\Plugin\HtmlProcessorManager
+ * @see \Drupal\od_crawler\Plugin\HtmlProcessorManager
  * @see plugin_api
  *
  * @Annotation

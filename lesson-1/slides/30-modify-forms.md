@@ -44,7 +44,7 @@ As a visitor I don't need an explanation for the Password field.
 As a visitor I don't need an explanation for the Password field.
 
 - Remove the Password field description using hook_form_alter().
-- More details in: /02 form alter/exercise.txt
+- More details in: _lesson-1/exercises/2 form alter/exercises.txt_.
 
 --vv--
 

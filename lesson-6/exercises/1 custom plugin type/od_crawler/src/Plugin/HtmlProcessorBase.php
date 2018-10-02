@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\wizzlern_crawler\Plugin;
+namespace Drupal\od_crawler\Plugin;
 
 use Drupal\Component\Plugin\PluginBase;
 

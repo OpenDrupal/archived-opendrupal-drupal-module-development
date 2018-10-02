@@ -78,10 +78,10 @@ As a logged in user I want to see a list of most recent reviews of games that ma
 As a logged in user I want to see a list of most recent reviews of games that match my age.
 
 - Create a Pegi module, content type and taxonomy term. 
-- More details in: /03.1 pegi module/exercise.php.
+- More details in: _lesson-2/exercises/1 pegi module/exercises.txt_.
 
 - Create a custom block that shows a list of links to the 5 most recent game reviews.
-- More details in: /03.2 block/.../NewGames.php.
+- More details in: _lesson-2/exercises/2 block/exercises.txt_.
 
 --vv--
 

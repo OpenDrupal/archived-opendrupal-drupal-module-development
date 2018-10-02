@@ -1,0 +1,3 @@
+services:
+  od_crawler.html_loader:
+    # see exercises.txt

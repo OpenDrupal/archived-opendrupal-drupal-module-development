@@ -1,0 +1,9 @@
+Create the basis for the Pegi Games review user story.
+Estimated time: 15 min.
+
+==== Step 1 ====
+Create the Games content type and Pegi vocabulary.
+- Copy the od_pegi_config folder to your project's module/custom folder.
+  This module will create a Game Review content type and Pegi vocabulary. These
+  entities are required for the following course exercises.
+- Enable the od_pegi_config module.

@@ -171,7 +171,7 @@ As a site visitor I want to see the title of the Games overview page in my own l
 
 - Make the page title configurable via the Pegi configuration form.
 - Use Configuration Translation module to translate the page title.
-- More exercise details in: _/09 configuration/.../wizzlern_pegi.schema.yml_.
+- More exercise details in: _/09 configuration/.../od_pegi.schema.yml_.
 
 --vv--
 

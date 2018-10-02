@@ -1,0 +1,51 @@
+Exercises with configuration and configuration forms.
+Estimated time: 45 min.
+
+==== Step 1 ====
+Create a configuration form for the maximum number of reviews to be shown on
+the games overview page.
+- Find examples of configuration forms in core.
+- Set the form ID.
+- Determine the name of the configuration that this form will modify.
+- Add the form element for the number of games on the page.
+- Save the configuration value in the submit handler.
+- Add a route for the form.
+- Test the form.
+
+--- Hints ---
+- #default_value
+- #min
+- #title
+- #type
+- $config
+- games_per_page
+- get
+- od_pegi.settings
+
+==== Step 2 ====
+Apply the configuration.
+- Use the configuration value in the page controller to set he maximum
+  number of games on a page.
+- Check the result.
+
+--- Hints ---
+- config
+- games_per_page
+- get
+- od_pegi.settings
+
+==== Step 3 ====
+Set default configuration values.
+- Create a Yaml file with the default configuration value in the directory
+  od_pegi/config/install. What should be the name of this file?
+- Check the result by uninstalling and installing the od_pegi module.
+- Tip: When you export configuration stored with the form, a Yaml file with
+  this configuration is being generated.
+ 
+==== Step 4 (optional) ====
+Make the configuration page appear on the Configuration page at /admin/config.
+- Find examples of configuration page links in core.
+- Add a menu item for the settings page.
+- Add a task link for the settings page.
+- Check the result.
+
