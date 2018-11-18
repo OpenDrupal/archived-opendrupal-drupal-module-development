@@ -4,9 +4,9 @@ Develop your own Drupal modules. Learn fundamental concepts and major patterns o
 
 View the slides on-line at https://opendrupal.github.io/opendrupal-drupal-module-development
 
-General info about this course: https://opendrupal.org/materials/drupal-module-development
+General info about these materials: https://opendrupal.org/materials/drupal-module-development
 
-These materials are part of the [OpenDrupal curriculum](https://opendrupal.or).
+These materials are part of the [OpenDrupal curriculum](https://opendrupal.org).
 
 ## Lessons
 
