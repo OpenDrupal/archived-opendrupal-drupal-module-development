@@ -7,9 +7,11 @@ Set up the @Block annotation.
   Block module).
 - Find and read the interfaces that are implemented by BlockBase.
 - Copy the provided Block class to src/Plugin/Block inside the og_pegi module. 
-- Complete the @Block annotation below.
+- Complete the @Block annotation:
   - Use the documentation sources provided in the presentation slide.
   - Annotation keys are documented in: \Drupal\Core\Block\Annotation\Block.
+- Clear the cache. The block name should now appear in the list of available
+  blocks when you place a block in a region at the Block layout page.
 
 ==== Step 2 ====
 Complete the build() method and enable the block.
