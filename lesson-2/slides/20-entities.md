@@ -45,12 +45,9 @@ $entity = $this->entityTypeManager->getStorage('entity_type')->load($entity_id);
 
 ![Node UML diagram](lesson-2/slides/images/node-uml.png)<!-- .element: style="width: 75%;" -->
 
-- EntityTypeManager: 'entity_type.manager' service
-- Manages entity type plugin definitions
-- NodeStorage:
-- Node storage handler class
-- Node
-- The node entity class.
+- EntityTypeManager: 'entity_type.manager' service.
+- NodeStorage: Node storage handler class.
+- Node: Node entity class.
 
 --vv--
 
@@ -64,12 +61,9 @@ $field_value = $node->get('field_name')->get(0)->get('value')->getValue();
 
 ![Typed Data UML diagram](lesson-2/slides/images/typed-data-uml.png)<!-- .element: style="width: 100%;" -->
 
-- FieldItemListInterface:
-- List of van field items (may have only one list element).
-- FieldItemInterface:
-- Field value item. Can have multiple properties.
-- TypedDataInterface:
-- TypedData class contains the property values.
+- FieldItemListInterface: List of van field items (may have only one list element).
+- FieldItemInterface: Field value item. Can have multiple properties.
+- TypedDataInterface: TypedData class contains the property value(s).
 
 --vv--
 
@@ -85,8 +79,8 @@ $entity_ids = $query->condition('type', 'bundle_type')
 
 ![Entity Query UML diagram](lesson-2/slides/images/entity-query-uml.png)<!-- .element: style="width: 75%;" -->
 
-- Query object:
-  - Queries entities.
+- Query: The entity query instance.
+  - Provides methods to filter, sort and limit the query. 
   - execute() returns an array of entity IDs.
 
 --vv--
