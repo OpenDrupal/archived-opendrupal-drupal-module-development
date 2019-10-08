@@ -6,7 +6,7 @@ Create a hook_form_alter() implementation to determine the form ID.
 - Search the documentation of hook_form_alter().
 - Create a [module name].module file
 - Create a function [module name]_form_alter with the right parameters.
-- Use vardump() to print the value of $form_id.
+- Use var_dump() to print the value of $form_id.
 - Go to the login page (/user) and determine the form's ID.
 
 ==== Step 2 ====
