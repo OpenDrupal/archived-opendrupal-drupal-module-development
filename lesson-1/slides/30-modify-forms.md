@@ -5,7 +5,7 @@
 # The hook system
 - Hooks is a procedural observer/listener pattern.
   - Modify data: hook_*_alter()
-  - Extend an existing proces: bijv. hook_cron(), hook_ENTITY_TYPE_view(). 
+  - Extend an existing proces: e.g. hook_cron(), hook_ENTITY_TYPE_view(). 
 - Documented in MODULE.api.php files.
 - Detected and called based on the function name: [module name]_[hook name].
 
