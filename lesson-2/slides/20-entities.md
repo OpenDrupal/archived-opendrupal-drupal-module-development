@@ -41,6 +41,7 @@ As a logged in user I want to see a list of most recent reviews of games that ma
 ```php
 $this->entityTypeManager = $container->get('entity_type.manager');
 $entity = $this->entityTypeManager->getStorage('entity_type')->load($entity_id);
+$entityTypeManager = \Drupal::entityTypeManager(); // Procedural
 ```
 
 ![Node UML diagram](lesson-2/slides/images/node-uml.png)<!-- .element: style="width: 75%;" -->
@@ -54,8 +55,11 @@ $entity = $this->entityTypeManager->getStorage('entity_type')->load($entity_id);
 # Entity fields
 
 ```php
-$field_value = $node->field_name->value;
 $field_value = $node->get('field_name')->value;
+$field_value = $node->field_name->value;
+$field_value = $node->get('field_name')[0]->value;
+$field_value = $node->get('field_name')->first()->value;
+$field_value = $node->get('field_name')->getValue()['value'];
 $field_value = $node->get('field_name')->get(0)->get('value')->getValue();
 ```
 
@@ -102,5 +106,5 @@ Display a list of links to game reviews inside the block.
 ```php
 $foo = $node->get('field_foo')->value;
 $translation = $node->getTranslation($langcode);
-$translation->get('field_foo')->value;
+$translatedValue = $translation->get('field_foo')->value;
 ```
