@@ -46,7 +46,7 @@ use Drupal\Core\Access\AccessResult;
  * Implements hook_form_alter().
  *
  * Uncomment this function to determine the form ID of forms on any page. This
- * is a frequently use trick to find the ID. hook_form_alter() is execute on
+ * is a frequently used trick to find the ID. hook_form_alter() is execute on
  * all forms, but for performance it is preferred to implement
  * hook_form_FORM_ID_alter().
  */
