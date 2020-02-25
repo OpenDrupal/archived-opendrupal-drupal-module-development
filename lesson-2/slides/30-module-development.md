@@ -21,7 +21,6 @@
 - Code style: https://drupal.org/coding-standards
 - Module documentation guidelines: <br>https://drupal.org/node/161085
 - Examples module: <br>https://drupal.org/project/examples 
-- https://wizzlern.nl/cheatsheets
 
 --vv--
 
