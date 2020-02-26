@@ -24,7 +24,7 @@ the games overview page.
 
 ==== Step 2 ====
 Apply the configuration.
-- Use the configuration value in the page controller to set he maximum
+- Use the configuration value in the page controller to set the maximum
   number of games on a page.
 - Check the result.
 
