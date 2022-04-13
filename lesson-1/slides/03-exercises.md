@@ -4,7 +4,7 @@
 
 # Development environment
 - Use a local development environment and a local host server.
-  - The latest stable Drupal 8 core
+  - The latest stable Drupal core
   - Devel module (dev release).
   - Drush (8.x).
   - Drupal console
@@ -14,7 +14,7 @@
 
 # Exercise code
 - 2 User stories: Game reviews, Web service
-- 2 Drupal 8 modules
+- 2 Drupal modules
 - Code in github
   - https://github.com/opendrupal/opendrupal-drupal-module-development
   - Exercises per lesson in numbered folders

@@ -1,4 +1,4 @@
-# Drupal 8 Module Development
+# Drupal Module Development
 <!-- .slide: class="layout-title-page" -->
 
 Lesson 2

@@ -88,7 +88,7 @@ As an editor I want to have a 'Add Game Review' button on the games overview pag
 --vv--
 
 # Documentation
-- Menu API in Drupal 8 https://drupal.org/node/2122231
+- Menu API in Drupal https://drupal.org/node/2122231
 - Contextual links https://drupal.org/node/2165243
 - Action links https://drupal.org/node/2133247
 - Local tasks https://drupal.org/node/2044515

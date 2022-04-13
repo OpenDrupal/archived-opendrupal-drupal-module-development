@@ -1,6 +1,6 @@
 {
   "name": "OpenDrupal Crawler",
-  "description": "An HTML crawler to be used during the OpenDrupal Drupal 8 module development training.",
+  "description": "An HTML crawler to be used during the OpenDrupal Drupal module development training.",
   "type": "drupal-module",
   "license": "GPL-2.0",
   "authors": [

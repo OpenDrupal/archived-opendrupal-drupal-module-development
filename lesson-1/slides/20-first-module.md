@@ -28,8 +28,8 @@
 
 --vv--
 
-# Name space
-- module name = name space
+# Namespace
+- module name = namespace
 - Configuration
 - Routes
 - Services

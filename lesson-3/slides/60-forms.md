@@ -127,5 +127,5 @@ As a site administrator I want to configure the number of reviews on the Games o
 --vv--
 
 # Documentation
-- Drupal 8 Form API introduction https://drupal.org/node/2117411
-- Drupal 8 Form API reference https://api.drupal.org/api/drupal/elements/8.2.x
+- Drupal Form API introduction https://drupal.org/node/2117411
+- Drupal Form API reference https://api.drupal.org/api/drupal/elements/8.2.x

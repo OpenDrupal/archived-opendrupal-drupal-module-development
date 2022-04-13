@@ -5,7 +5,7 @@
 # User story
 A as site owner I want a feature that gathers HTML data my competitors sites. I want it to be configurable in which sites and pages it crawls and what data it collects per page.
 
-As a developer I want to write the code using all the Drupal 8 tools I've learned. I want to use services, plugins and perhaps even custom entities to store the collected data.
+As a developer I want to write the code using all the Drupal tools I've learned. I want to use services, plugins and perhaps even custom entities to store the collected data.
 
 --vv--
 

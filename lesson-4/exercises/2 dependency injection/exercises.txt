@@ -24,5 +24,5 @@
 
 // ==== Step 3 (optional) ====
 // Use the API.
-// - Have you used 'node/[nid]' to build the URL to a node? In Drupal 8 there is
+// - Have you used 'node/[nid]' to build the URL to a node? In Drupal there is
 //   a dedicated method that returns the URL of an entity. Use it instead.

@@ -1,6 +1,6 @@
-# OpenDrupal Drupal 8 module development course materials
+# OpenDrupal Drupal module development course materials
 
-Develop your own Drupal modules. Learn fundamental concepts and major patterns of the Drupal 8 API.
+Develop your own Drupal modules. Learn fundamental concepts and major patterns of the Drupal API. Suitable for drupal 9.
 
 View the slides on-line at https://opendrupal.github.io/opendrupal-drupal-module-development
 

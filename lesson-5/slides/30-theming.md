@@ -166,5 +166,5 @@ $build['string'] = array(
 
 # Documentation
 - Default theme implementations: <br>https://api.drupal.org/api/drupal/core%21modules%21system%21theme.api.php/group/themeable/8
-- Drupal 8 Form API reference: <br>https://api.drupal.org/api/drupal/developer!topics!forms_api_reference.html/8 
-- Theming Drupal 8: <br>https://drupal.org/theme-guide/8
+- Drupal Form API reference: <br>https://api.drupal.org/api/drupal/developer!topics!forms_api_reference.html/8 
+- Theming Drupal: <br>https://drupal.org/theme-guide/8

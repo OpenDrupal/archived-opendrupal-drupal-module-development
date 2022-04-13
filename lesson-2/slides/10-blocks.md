@@ -86,5 +86,5 @@ As a logged in user I want to see a list of most recent reviews of games that ma
 --vv--
 
 # Documentation
-- Block API in Drupal 8 <br>https://www.drupal.org/developing/api/8/block_api
+- Block API in Drupal <br>https://www.drupal.org/developing/api/8/block_api
 - @Block annotation keys are documented in \Drupal\Core\Block\Annotation\Block
