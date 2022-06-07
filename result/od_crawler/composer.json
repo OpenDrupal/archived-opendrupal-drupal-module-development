@@ -1,5 +1,5 @@
 {
-  "name": "OpenDrupal Crawler",
+  "name": "opendrupal/od_crawler",
   "description": "An HTML crawler to be used during the OpenDrupal Drupal module development training.",
   "type": "drupal-module",
   "license": "GPL-2.0",
@@ -11,6 +11,6 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "mgargano/simplehtmldom": "~1.5"
+    "simplehtmldom/simplehtmldom": "^2.0"
   }
 }

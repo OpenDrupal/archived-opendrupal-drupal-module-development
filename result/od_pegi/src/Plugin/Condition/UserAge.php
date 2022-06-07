@@ -138,7 +138,7 @@ class UserAge extends ConditionPluginBase implements ContainerFactoryPluginInter
     $user = $this->getContextValue('user');
     $user_age = $user->field_user_age->value;
     $term = Term::load($this->configuration['rating']);
-    $allowed_age = $term->{OD_PEGI_FIELD_ALLOWED_AGE}->value;
+    $allowed_age = $term->get(OD_PEGI_FIELD_ALLOWED_AGE)->value;
 
     switch ($this->configuration['condition']) {
       case '<':

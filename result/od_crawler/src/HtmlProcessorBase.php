@@ -3,7 +3,7 @@
 namespace Drupal\od_crawler;
 
 use Drupal\Component\Plugin\PluginBase;
-use SimpleHtmlDom\simple_html_dom;
+use simplehtmldom\HtmlDocument;
 
 /**
  * Base class for HTML Processor plugins.
@@ -13,7 +13,7 @@ abstract class HtmlProcessorBase extends PluginBase implements HtmlProcessorInte
   /**
    * SimpleHtmlDom object containing the information to be processed.
    *
-   * @var \SimpleHtmlDom\simple_html_dom
+   * @var \simplehtmldom\HtmlDocument
    */
   protected $DOMObject;
 
@@ -34,7 +34,7 @@ abstract class HtmlProcessorBase extends PluginBase implements HtmlProcessorInte
   /**
    * {@inheritdoc}
    */
-  public function setDom(simple_html_dom $dom) {
+  public function setDom(HtmlDocument $dom) {
 
     $this->DOMObject = $dom;
     return $this;

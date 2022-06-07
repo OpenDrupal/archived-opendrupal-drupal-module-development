@@ -130,7 +130,7 @@ class PegiReferenceLinkFormatter extends EntityReferenceFormatterBase implements
     foreach ($this->getEntitiesToView($items, $langcode) as $delta => $entity) {
       /** @var \Drupal\image\Plugin\Field\FieldType\ImageItem $image */
       // We assume that only one image is used.
-      $item = $entity->{OD_PEGI_TERM_IMAGE_FIELD}[0];
+      $item = $entity->get(OD_PEGI_TERM_IMAGE_FIELD)[0];
       $image_style = $this->getSetting('image_style');
 
       // Collect cache tags to be added for each item in the field.

@@ -2,6 +2,8 @@
 
 namespace Drupal\od_crawler\HtmlLoader;
 
+use simplehtmldom\HtmlDocument;
+
 /**
  * HTML Loader interface.
  */
@@ -13,7 +15,7 @@ interface HtmlLoaderInterface {
    * @param string $url
    *   URL of the web page.
    *
-   * @return \SimpleHtmlDom\simple_html_dom_node
+   * @return HtmlDocument
    *   DOM node object containing the web page content.
    *
    * @throws \Exception

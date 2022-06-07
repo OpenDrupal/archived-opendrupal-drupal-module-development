@@ -3,7 +3,7 @@
 namespace Drupal\od_crawler;
 
 use Drupal\Component\Plugin\PluginInspectionInterface;
-use SimpleHtmlDom\simple_html_dom;
+use simplehtmldom\HtmlDocument;
 
 /**
  * Defines an interface for HTML Processor plugins.
@@ -29,13 +29,13 @@ interface HtmlProcessorInterface extends PluginInspectionInterface {
   /**
    * Sets the DOM object for further processing.
    *
-   * @param \SimpleHtmlDom\simple_html_dom $dom
+   * @param \simplehtmldom\HtmlDocument $dom
    *   The DOM object.
    *
-   * @return \SimpleHtmlDom\simple_html_dom
+   * @return \simplehtmldom\HtmlDocument
    *   The stored DOM object.
    */
-  public function setDom(simple_html_dom $dom);
+  public function setDom(HtmlDocument $dom);
 
   /**
    * Performs data processing.

@@ -4,7 +4,7 @@ namespace Drupal\od_crawler\HtmlLoader;
 
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Exception\RequestException;
-use SimpleHtmlDom\simple_html_dom;
+use simplehtmldom\HtmlDocument;
 
 /**
  * Fetches HTML data from remote locations.
@@ -43,7 +43,7 @@ class HtmlLoader implements HtmlLoaderInterface {
     $html = $response->getBody()->getContents();
 
     // Return the HTML as SimpleHtmlDom object.
-    $dom = new simple_html_dom($html);
+    $dom = new HtmlDocument($html);
     return $dom;
   }
 

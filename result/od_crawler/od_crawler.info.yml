@@ -1,5 +1,5 @@
 name: OpenDrupal crawler
 type: module
 description: An HTML crawler to be used during the OpenDrupal Drupal module development training.
-core: 8.x
+core_version_requirement: ^9 || ^10
 package: OpenDrupal

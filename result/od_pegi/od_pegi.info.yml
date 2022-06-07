@@ -5,11 +5,11 @@ type: module
 # description is shown on the module overview pages.
 description: 'Age restricted content using Pegi classification for Drupal development training.'
 # package is used for grouping on the module overview page.
-package: OpenDrupal 
+package: OpenDrupal
 # version must match the drupal version number pattern.
-version: 8.x-1.x
-# core is required. It must match the drupal core version.
-core: 8.x
+version: 2.0.0
+# core_version_requirement is required. It must match the drupal core version.
+core_version_requirement: ^9 || ^10
 # Route definition of the module's configuration page.
 configure: od_pegi.settings
 # List of modules that this module requires.
