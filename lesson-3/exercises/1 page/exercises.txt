@@ -9,10 +9,10 @@ Create routing for the page.
   - Controller: OdPegiController::gamesOverview.
   - URL: '/games'
   - Page title: 'Games'
-- TIP: Use the fragments below to make the route.
+- TIP: Use the hints below to make the route.
 - Access to the page requires the permission to access content.
 
---- Hints ---
+--- Hints for step 1 ---
 defaults:
 path:
 requirements:
@@ -22,15 +22,16 @@ _permission
 _title
 
 ==== Step 2 ====
-Load Game review nodes and output links to the nodes.
+Load Game review nodes and output a link of links to these nodes.
 - Use an entity query to load all published game reviews.
 - Find an example in core to format a node using the viewBuilder.
 - Use the viewBuilder to build the teaser view of the nodes.
 - Let the controller method return a list of teasers.
 - Also provide an empty text if no games are present.
-- Create or generate game review nodes and check the result.
+- Create or generate game review nodes.
+- Check the list of links.
 
---- Hints ---
+--- Hints for step 2 ---
 $build['empty'] or '#empty'
 '#markup'
 entityTypeManager
@@ -38,12 +39,12 @@ getViewBuilder()
 view()
 
 ==== Step 3 (optional) ====
-Add a pager to the output list.
+Add a pager to the list of games.
 - Find in core examples how to add a pager to the output.
 - Apply the pager with 5 items per page.
 - Check the result.
 
---- Hints ---
+--- Hints for step 3 ---
 '#quantity'
 '#type' => 'pager'
 pager()

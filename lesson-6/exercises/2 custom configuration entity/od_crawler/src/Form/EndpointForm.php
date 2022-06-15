@@ -49,13 +49,13 @@ class EndpointForm extends EntityForm {
 
     switch ($status) {
       case SAVED_NEW:
-        drupal_set_message($this->t('Created the %label Crawler endpoint.', [
+        $this->messenger()->addMessage($this->t('Created the %label Crawler endpoint.', [
           '%label' => $endpoint->label(),
         ]));
         break;
 
       default:
-        drupal_set_message($this->t('Saved the %label Crawler endpoint.', [
+        $this->messenger()->addMessage($this->t('Saved the %label Crawler endpoint.', [
           '%label' => $endpoint->label(),
         ]));
     }

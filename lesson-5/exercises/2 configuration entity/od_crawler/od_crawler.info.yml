@@ -1,0 +1,7 @@
+name: Open Drupal Crawler
+type: module
+description: 'Provides an endpoint configuration entity.'
+package: Open Drupal
+core: 8.x
+core_version_requirement: ^8 || ^9
+configure: entity.od_crawler_endpoint.collection

@@ -1,7 +1,8 @@
 Custom plugin type - Exercise 2
 Estimated time: 45 minutes.
 
-As a developer I want to structure my code to be loosly coupled and maintainable.
+As a developer I want to structure my code to be loosely coupled and
+maintainable.
 
 ==== Step 1 ====
 Create a service that loads the HTML.
@@ -11,6 +12,7 @@ Create a service that loads the HTML.
 ==== Step 2 ====
 Create a service that parses DOM data. 
 - Start with the parsing code from the PoC.
-- Use the simplehtmldom library to convert the HTML response to a DOM object. Add a composer.json to add this library.
+- Use the simplehtmldom library to convert the HTML response to a DOM object.
+  Add a composer.json to add this library.
 - Use a dedicated method to return the h1 text from the DOM. 
 - Separate concerns by using (at least) two different methods for the above.

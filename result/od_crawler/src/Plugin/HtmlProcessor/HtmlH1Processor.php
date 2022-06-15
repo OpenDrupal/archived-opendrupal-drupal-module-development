@@ -21,7 +21,7 @@ class HtmlH1Processor extends HtmlProcessorBase {
    *   The h1 tag. Empty string if not found.
    */
   public function process() {
-    $node = $this->DOMObject->find('h1', 0);
+    $node = $this->domObject->find('h1', 0);
     return isset($node) ? $node->plaintext : '';
   }
 

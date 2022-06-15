@@ -12,7 +12,7 @@ the games overview page.
 - Add a route for the form.
 - Test the form.
 
---- Hints ---
+--- Hints for step 1 ---
 - #default_value
 - #min
 - #title
@@ -28,7 +28,7 @@ Apply the configuration.
   number of games on a page.
 - Check the result.
 
---- Hints ---
+--- Hints for step 2 ---
 - config
 - games_per_page
 - get
@@ -39,8 +39,9 @@ Set default configuration values.
 - Create a Yaml file with the default configuration value in the directory
   od_pegi/config/install. What should be the name of this file?
 - Check the result by uninstalling and installing the od_pegi module.
-- Tip: When you export configuration stored with the form, a Yaml file with
-  this configuration is being generated.
+- Tip: When you export the configuration that is stored by the form, a Yaml file
+  with this configuration is exported. This file can be used as a starter in
+  config/install.
  
 ==== Step 4 (optional) ====
 Make the configuration page appear on the Configuration page at /admin/config.

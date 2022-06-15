@@ -21,7 +21,7 @@ class HtmlGeneratorProcessor extends HtmlProcessorBase {
    *   The generator tag. Empty string if not found.
    */
   public function process() {
-    $node = $this->DOMObject->find('meta[name=Generator]', 0);
+    $node = $this->domObject->find('meta[name=Generator]', 0);
     return isset($node) ? $node->content : '';
   }
 

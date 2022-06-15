@@ -4,7 +4,7 @@ namespace Drupal\od_crawler\Controller;
 
 use Drupal\Component\Plugin\PluginManagerInterface;
 use Drupal\Core\Controller\ControllerBase;
-use Drupal\od_crawler\HtmlLoader\HtmlLoader;
+use Drupal\od_crawler\HtmlLoader;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
@@ -17,7 +17,7 @@ class DisplayController extends ControllerBase {
   /**
    * HTML Loader.
    *
-   * @var \Drupal\od_crawler\HtmlLoader\HtmlLoader
+   * @var \Drupal\od_crawler\HtmlLoader
    */
   protected $htmlLoader;
 
@@ -31,7 +31,7 @@ class DisplayController extends ControllerBase {
   /**
    * Constructs a new DisplayController instance.
    *
-   * @param \Drupal\od_crawler\HtmlLoader\HtmlLoader $html_loader
+   * @param \Drupal\od_crawler\HtmlLoader $html_loader
    *   The HTML crawler.
    * @param \Drupal\Component\Plugin\PluginManagerInterface $html_processor_plugin_manager
    *   The HTML Processor plugin manager.
@@ -71,7 +71,7 @@ class DisplayController extends ControllerBase {
       }
       catch (\Exception $e) {
         watchdog_exception('od_crawler', $e);
-        drupal_set_message($this->t('Failed to find data at %name.', ['%name' => $entity->label()]), 'error');
+        $this->messenger()->addMessage($this->t('Failed to find data at %name.', ['%name' => $entity->label()]), 'error');
         break;
       }
 

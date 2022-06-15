@@ -9,3 +9,6 @@ Use composer to load the SimpleHtmlDom library.
  console, run composer require [name of the package]" from the project 
  root directory.
 - Check that the vendor directory now contains the SimpleHtmlDom library.
+
+--- Hints for step 1 ---
+- simplehtmldom/simplehtmldom

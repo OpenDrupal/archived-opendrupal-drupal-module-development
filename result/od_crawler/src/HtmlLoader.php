@@ -1,9 +1,8 @@
 <?php
 
-namespace Drupal\od_crawler\HtmlLoader;
+namespace Drupal\od_crawler;
 
 use GuzzleHttp\ClientInterface;
-use GuzzleHttp\Exception\RequestException;
 use simplehtmldom\HtmlDocument;
 
 /**
@@ -19,7 +18,7 @@ class HtmlLoader implements HtmlLoaderInterface {
   protected $httpClient;
 
   /**
-   * Instantiates this client class.
+   * Constructs this loader class.
    *
    * @param \GuzzleHttp\ClientInterface $http_client
    *   A Guzzle client object.
@@ -33,18 +32,39 @@ class HtmlLoader implements HtmlLoaderInterface {
    *
    * @throws \LogicException
    *   When the handler does not populate a response.
-   * @throws RequestException
+   * @throws \GuzzleHttp\Exception\RequestException
    *   When an error is encountered.
    */
-  public function loadDom($url) {
+  public function loadDom($url): HtmlDocument {
 
-    // Load HTML data from endpoint.
-    $response = $this->httpClient->get($url);
-    $html = $response->getBody()->getContents();
+    $html = $this->loadHtml($url);
+    if (empty($html)) {
+      throw new \LogicException('No HTML data found.');
+    }
 
     // Return the HTML as SimpleHtmlDom object.
     $dom = new HtmlDocument($html);
     return $dom;
+  }
+
+  /**
+   * Loads HTML data from and endpoint.
+   *
+   * @param string $url
+   *   URL of the web page.
+   *
+   * @return string
+   *   The html response. Empty if a failure occurred.
+   */
+  private function loadHtml($url): string {
+
+    /** @var \Psr\Http\Message\ResponseInterface $response **/
+    $response = $this->httpClient->get($url);
+    if ($response->getStatusCode() >= 400) {
+      return '';
+    }
+
+    return $response->getBody()->getContents();
   }
 
 }

@@ -15,7 +15,7 @@ abstract class HtmlProcessorBase extends PluginBase implements HtmlProcessorInte
    *
    * @var \simplehtmldom\HtmlDocument
    */
-  protected $DOMObject;
+  protected $domObject;
 
   /**
    * {@inheritdoc}
@@ -36,7 +36,7 @@ abstract class HtmlProcessorBase extends PluginBase implements HtmlProcessorInte
    */
   public function setDom(HtmlDocument $dom) {
 
-    $this->DOMObject = $dom;
+    $this->domObject = $dom;
     return $this;
   }
 

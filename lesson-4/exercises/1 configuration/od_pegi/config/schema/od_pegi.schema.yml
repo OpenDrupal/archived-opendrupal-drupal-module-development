@@ -19,7 +19,7 @@
 # - Check the configuration using the Configuration inspector module
 #   https://www.drupal.org/project/config_inspector.
 
-# --- Fragments for step 2 ---
+# --- Hints for step 2 ---
 # - config_object
 # - games_page_title
 # - games_per_page
@@ -34,5 +34,5 @@
 # Translate the games page title.
 # - Enable the following modules: Language, Configuration Translation
 # - Add a second language, for example Dutch.
-# - Translate the page title configuration
+# - Translate the page title configuration.
 # - Check the result on the Dutch Games page.

@@ -50,4 +50,4 @@ Create a new Drupal module in which we will collect some general helpers that ca
 
 # Tips
 - Use the project or customer name as prefix of all your custom modules (e.g. od_ for OpenDrupal).
-- Use Drupal Console or Drush 9 to generate a module: <br>http://drupalconsole.com, http://www.drush.org/index.html
+- Use the Drush generate command to generate a module: <br>http://www.drush.org/index.html

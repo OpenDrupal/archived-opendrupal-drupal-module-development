@@ -1,15 +1,9 @@
 <?php
 
-/**
- * @file
- * Contains \Drupal\od_crawler\HtmlLoader\HtmlLoader.
- */
-
-namespace Drupal\od_crawler\HtmlLoader;
+namespace Drupal\od_crawler;
 
 use GuzzleHttp\ClientInterface;
-use GuzzleHttp\Exception\RequestException;
-use SimpleHtmlDom\simple_html_dom;
+use simplehtmldom\HtmlDocument;
 
 /**
  * Fetches HTML data from remote locations.

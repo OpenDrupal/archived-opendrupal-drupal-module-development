@@ -2,27 +2,24 @@ Contains exercises for a custom configuration entity.
 Estimated time: 75 min.
 
 ==== Step 1 ====
-Create a new module for an HTML webservice client.
-- Module name ‘od_crawler’.
-
-==== Step 2 ====
-Create a configuration entity that will contain the configuration of
-an endpoint.
-- Use Drupal Console (http://drupalconsole.com/) to create a
+Create a new module for an HTML webservice client with configuration entity that
+will contain the configuration of an endpoint.
+- TODO Use Drupal Console (http://drupalconsole.com/) to create a
   configuration entity:
-  - $ drupal list
-  - $ drupal generate:entity:config
-  - Class name: Endpoint
-  - Entity name: endpoint
-  - Base path: /admin/config
-  Alternatively copy the files from od_crawler/* in this directory.
-- Read the generated code in src/Entity/Endpoint.php
+  - $ drush generate module-configuration-entity
+  - Module name: Open Drupal Crawler
+  - Module machine name: od_crawler
+  - Package: Open Drupal
+  - Entity type label: Endpoint
+  - Entity type ID: od_crawler_endpoint
+- Read the generated code in src/Entity/OdCrawlerEndpoint.php
 - Read the other generated files.
 
-==== Step 3 ====
+==== Step 2 ====
 Complete the configuration data.
-- An Endpoint consists of a name (label), machine name (id) and an endpoint
-  URL. Add a protected property $endpoint_url and a getter method to
+The entity was generated with id, label, uuid and description. For an endpoint
+we need a name (label), machine name (id) and an endpoint URL.
+- Add a property $endpoint_url and a getter method to
   \Drupal\od_crawler\Entity\Endpoint.
 - Update the EndpointInterface with the new method.
 - Add a field to the entity form for the endpoint_url in
@@ -30,3 +27,5 @@ Complete the configuration data.
 - Update the data schema in config/schema/endpoint.schema.yml.
 - Create an HTML client to test the entity.
 - Export the site configuration and check the data structure.
+- Remove the 'description' and 'status' properties from all parts of the
+  generated endpoint entity.

@@ -10,14 +10,16 @@ Types of data: H1 tag, Page language, Processor meta tag
 - Determine the interface of the plugin.
   - What data will the plugin receive, in which form?
   - What data will the plugin return, in which form?
-- Write the (pseudo) code in the parser service that calls the plugin and handles the return data.
+- Write the (pseudo) code in the parser service that calls the plugin and
+  handles the return data.
 - Create a plugin manager for annotation type plugins. 
   - This includes:
     - Annotation definition class (extends Drupal\Component\Annotation\Plugin).
     - Plugin manager and its interface (class: HtmlProcessor;
       name: html_processor).
     - Plugin base class (extends Drupal\Component\Plugin\PluginBase)
-  - Either use Drush or Drupal Console, or copy the files from plugin/od_crawler/* in this exercise folder.
+  - Either use Drush or Drupal Console, or copy the files from
+    plugin/od_crawler/* in this exercise folder.
 - Write the first plugin.
   - Call a plugin from the parser service to check the result.
 - Evaluate and rework

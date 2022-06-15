@@ -6,16 +6,17 @@ use Drupal\Core\Config\Entity\ConfigEntityListBuilder;
 use Drupal\Core\Entity\EntityInterface;
 
 /**
- * Provides a listing of Endpoint entities.
+ * Provides a listing of endpoints.
  */
-class EndpointListBuilder extends ConfigEntityListBuilder {
+class OdCrawlerEndpointListBuilder extends ConfigEntityListBuilder {
 
   /**
    * {@inheritdoc}
    */
   public function buildHeader() {
-    $header['label'] = $this->t('Endpoint');
+    $header['label'] = $this->t('Label');
     $header['id'] = $this->t('Machine name');
+    $header['status'] = $this->t('Status');
     return $header + parent::buildHeader();
   }
 
@@ -23,9 +24,10 @@ class EndpointListBuilder extends ConfigEntityListBuilder {
    * {@inheritdoc}
    */
   public function buildRow(EntityInterface $entity) {
+    /** @var \Drupal\od_crawler\OdCrawlerEndpointInterface $entity */
     $row['label'] = $entity->label();
     $row['id'] = $entity->id();
-    // You probably want a few more properties here...
+    $row['status'] = $entity->status() ? $this->t('Enabled') : $this->t('Disabled');
     return $row + parent::buildRow($entity);
   }
 

@@ -63,18 +63,20 @@ class HtmlLanguageProcessor extends HtmlProcessorBase implements ContainerFactor
    *   The language name. Empty string if no or unknown language was found.
    */
   public function process() {
-    $language = '';
 
-    $node = $this->DOMObject->find('html', 0);
-    $languages = $this->languageManager->getStandardLanguageList();
-    if (isset($node->lang)) {
-      // Handle language code formats like 'nl' and 'nl_NL'.
-      $langcode = strpos($node->lang, '_') ? substr($node->lang, 0, 2) : $node->lang;;
-      if (isset($languages[$langcode])) {
-        $language = $this->t($languages[$langcode][0]);
-      }
+    $node = $this->domObject->find('html', 0);
+    if (!isset($node->lang)) {
+      return '';
     }
-    return $language;
+
+    $languages = $this->languageManager->getStandardLanguageList();
+    // Handle language code formats like 'nl' and 'nl_NL'.
+    $langcode = strpos($node->lang, '_') ? substr($node->lang, 0, 2) : $node->lang;
+    if (!isset($languages[$langcode])) {
+      return $langcode;
+    }
+
+    return $this->t($languages[$langcode][0]);
   }
 
 }

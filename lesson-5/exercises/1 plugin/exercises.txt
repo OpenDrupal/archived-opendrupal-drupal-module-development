@@ -4,8 +4,8 @@ Estimated time: 45 min.
 ==== Step 1 ====
 Create a field formatter plugin for the Pegi rating taxonomy term reference.
 - Find an example field formatter plugin in core.
-- Create a field formatter plugin class. Alternatively use Drupal Console
-  (http://drupalconsole.com/) to generate a field formatter plugin.
+- Create a field formatter plugin class. Alternatively use `drush generate`
+  to generate a field formatter plugin.
 - Set up the annotation. Make sure the formatter is suitable for a taxonomy
   reference field.
 - Determine which method in the plugin is responsible for the output.
@@ -29,7 +29,7 @@ Use an inline template to format the output.
 - Use an inline templates to format the ouptut.
 - Test the result.
 
---- Hints ---
+--- Hints for step 3 ---
 - '#type' => 'inline_template',
 
 ==== Step 4 (optional) ====

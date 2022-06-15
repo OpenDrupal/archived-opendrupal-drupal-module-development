@@ -5,16 +5,15 @@ Estimated time: 15 min.
 Create a module that will contain general helpers for your project.
 - Think of a name for the module. Use for example the name of the project
   and/or the project customer.
-- Create a directory with the project name inside modules/custom
-- Create a [module name].info.yml file in the project folder.
-- Search for example .info.yml files or find on-line documentation.
-- Complete your [module name].info.yml file
+- Create a directory inside modules/custom, with the same name as the module name
+- Create a file [module name].info.yml in the folder.
+- Search in core for *.info.yml files as example or find on-line documentation.
+- Complete your [module name].info.yml file. You can use the hits below.
 - Go to the Extend page at /admin/modules and check if your module is listed.
 - Enable the module.
 
---- Hints ---
+--- Hints for step 1 ---
 - name
 - description
 - type
-- core
-- version
+- core_version_requirement

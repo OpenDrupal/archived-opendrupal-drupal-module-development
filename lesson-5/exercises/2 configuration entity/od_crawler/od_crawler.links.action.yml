@@ -1,6 +1,5 @@
-entity.endpoint.add_form:
-  route_name: entity.endpoint.add_form
-  title: 'Add Endpoint'
+entity.od_crawler_endpoint.add_form:
+  route_name: 'entity.od_crawler_endpoint.add_form'
+  title: 'Add endpoint'
   appears_on:
-    - entity.endpoint.collection
-
+    - entity.od_crawler_endpoint.collection

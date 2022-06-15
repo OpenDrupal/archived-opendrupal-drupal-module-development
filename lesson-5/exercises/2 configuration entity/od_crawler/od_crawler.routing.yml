@@ -1,0 +1,31 @@
+entity.od_crawler_endpoint.collection:
+  path: '/admin/structure/od-crawler-endpoint'
+  defaults:
+    _entity_list: 'od_crawler_endpoint'
+    _title: 'Endpoint configuration'
+  requirements:
+    _permission: 'administer od_crawler_endpoint'
+
+entity.od_crawler_endpoint.add_form:
+  path: '/admin/structure/od_crawler_endpoint/add'
+  defaults:
+    _entity_form: 'od_crawler_endpoint.add'
+    _title: 'Add an endpoint'
+  requirements:
+    _permission: 'administer od_crawler_endpoint'
+
+entity.od_crawler_endpoint.edit_form:
+  path: '/admin/structure/od-crawler-endpoint/{od_crawler_endpoint}'
+  defaults:
+    _entity_form: 'od_crawler_endpoint.edit'
+    _title: 'Edit an endpoint'
+  requirements:
+    _permission: 'administer od_crawler_endpoint'
+
+entity.od_crawler_endpoint.delete_form:
+  path: '/admin/structure/od-crawler-endpoint/{od_crawler_endpoint}/delete'
+  defaults:
+    _entity_form: 'od_crawler_endpoint.delete'
+    _title: 'Delete an endpoint'
+  requirements:
+    _permission: 'administer od_crawler_endpoint'

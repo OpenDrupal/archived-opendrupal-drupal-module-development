@@ -25,7 +25,7 @@ class EndpointListBuilder extends ConfigEntityListBuilder {
    */
   public function buildRow(EntityInterface $entity) {
 
-    /** @var \Drupal\od_crawler\EndpointInterface $entity */
+    /** @var \Drupal\od_crawler\Entity\EndpointInterface $entity */
     $row['label'] = $entity->label();
     $row['id'] = $entity->id();
     $row['url'] = $entity->getUrl();

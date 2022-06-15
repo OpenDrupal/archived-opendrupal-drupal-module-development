@@ -6,8 +6,7 @@
 - Use a local development environment and a local host server.
   - The latest stable Drupal core
   - Devel module (dev release).
-  - Drush (8.x).
-  - Drupal console
+  - Drush (10+).
 - Place modules in modules/contrib or modules/custom.
 
 --vv--
@@ -23,8 +22,8 @@
 --vv--
 
 # Development tools
-- Drush 8: https://github.com/drush-ops/drush (master branch) 
-- Devel module: https://drupal.org/project/devel (8.x-1.x-dev branch)
+- Drush: https://github.com/drush-ops/drush 
+- Devel module: https://drupal.org/project/devel
 - Drupal console: http://drupalconsole.com
 
 --vv--

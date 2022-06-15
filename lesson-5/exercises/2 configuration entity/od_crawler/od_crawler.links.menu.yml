@@ -1,9 +1,5 @@
-
-# Endpoint menu items definition
-entity.endpoint.collection:
-  title: 'Endpoint'
-  route_name: entity.endpoint.collection
-  description: 'List Endpoint (bundles)'
+entity.od_crawler_endpoint.overview:
+  title: Endpoints
   parent: system.admin_structure
-  weight: 99
-
+  description: 'List of endpoints to extend site functionality.'
+  route_name: entity.od_crawler_endpoint.collection

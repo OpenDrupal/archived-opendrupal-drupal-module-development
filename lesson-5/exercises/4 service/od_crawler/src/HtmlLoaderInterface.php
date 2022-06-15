@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\od_crawler\HtmlLoader;
+namespace Drupal\od_crawler;
 
 use simplehtmldom\HtmlDocument;
 
@@ -15,7 +15,7 @@ interface HtmlLoaderInterface {
    * @param string $url
    *   URL of the web page.
    *
-   * @return HtmlDocument
+   * @return \simplehtmldom\HtmlDocument|null
    *   DOM node object containing the web page content.
    *
    * @throws \Exception

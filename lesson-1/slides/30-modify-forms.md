@@ -14,11 +14,11 @@
 # Exercise
 We can get an (incomplete) picture of the hooks by listening-in on the method that calls many hooks.
 
-- Add a call to drupal_set_message() at the first line in ModuleHandler::invokeAll() <br>in core/lib/Drupal/Core/Extension/ModuleHandler.php
+- Add a call to \Drupal::messenger()->addMessage() at the first line in ModuleHandler::invokeAll() <br>in core/lib/Drupal/Core/Extension/ModuleHandler.php
 
 ```php
 public function invokeAll($hook, array $args = array()) {
-  drupal_set_message("hook_$hook");
+  \Drupal::messenger()->addMessage("hook_$hook");
   ...
 ```
 
@@ -44,7 +44,8 @@ As a visitor I don't need an explanation for the Password field.
 As a visitor I don't need an explanation for the Password field.
 
 - Remove the Password field description using hook_form_alter().
-- More details in: _lesson-1/exercises/2 form alter/exercises.txt_.
+- More details in:
+ _lesson-1/exercises/2 form alter/exercises.txt_.
 
 --vv--
 

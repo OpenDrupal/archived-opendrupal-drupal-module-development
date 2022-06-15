@@ -1,13 +1,8 @@
 <?php
 
-/**
- * @file
- * Contains \Drupal\od_crawler\HtmlLoader\HtmlLoaderInterface.
- */
+namespace Drupal\od_crawler;
 
-namespace Drupal\od_crawler\HtmlLoader;
-use SimpleHtmlDom\simple_html_dom_node;
-
+use simplehtmldom\HtmlDocument;
 
 /**
  * HTML Loader interface.
@@ -20,7 +15,7 @@ interface HtmlLoaderInterface {
    * @param string $url
    *   URL of the web page.
    *
-   * @return simple_html_dom_node
+   * @return \simplehtmldom\HtmlDocument|null
    *   DOM node object containing the web page content.
    *
    * @throws \Exception
