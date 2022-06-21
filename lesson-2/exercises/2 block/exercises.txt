@@ -2,6 +2,13 @@ Exercises to create a custom block with a list of items.
 Estimated time: 30 min.
 
 ==== Step 1 ====
+Create a module for game review functionality.
+- Create an od_pegi directory inside modules/custom
+- Create an od_pegi.info.yml file with the required information
+- Alternatively you can use `drush generate module`
+- Enable the module.
+
+==== Step 2 ====
 Set up the @Block annotation.
 - Find a block class in core that can be used as an example. (But not in the
   Block module).
@@ -13,7 +20,7 @@ Set up the @Block annotation.
 - Clear the cache. The block name should now appear in the list of available
   blocks when you place a block in a region at the Block layout page.
 
-==== Step 2 ====
+==== Step 3 ====
 Complete the build() method and enable the block.
 - Read the code that is currently used in the build() method.
 - Modify the code to return a list of dummy strings.
