@@ -5,7 +5,7 @@
  * Contains \Drupal\od_pegi\Plugin\Block\NewGames.
  */
 
-namespace Drupal\opendrupal_pegi\Plugin\Block;
+namespace Drupal\od_pegi\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
 
