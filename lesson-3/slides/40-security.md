@@ -13,7 +13,7 @@ $id = $database
   ->fetchObject();
 
 $query = $database->select('custom_data', 'd');
-$query->condition('name', $name);
+$query->condition('name', $_GET['name']);
 $query->addField('d', 'id');
 $id = $query->execute();
 ```
