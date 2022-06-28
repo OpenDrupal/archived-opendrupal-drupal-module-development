@@ -34,9 +34,9 @@ use Drupal\Core\Block\BlockBase;
 class ExampleBlock extends BlockBase {
 
   public function build() {
-    return array(
+    return [
       '#markup' => ...
-    );
+    ];
   }
 }
 ```

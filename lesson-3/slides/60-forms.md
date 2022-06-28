@@ -7,14 +7,14 @@
 - Form API provides security.
 
 ```php
-$form['name'] = array(
+$form['name'] = [
   '#type' => 'textfield',
   '#title' => $this->t('Username'),
   '#size' => 60,
   '#maxlength' => USERNAME_MAX_LENGTH,
   '#description' => $this->t('Enter your @s username.', ...
   '#required' => TRUE,
-);
+];
 ```
 
 --vv--

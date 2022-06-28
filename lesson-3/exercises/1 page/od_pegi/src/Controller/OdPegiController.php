@@ -24,10 +24,10 @@ class OdPegiController extends ControllerBase {
 
     $items = [];
 
-    $build['games'] = array(
+    $build['games'] = [
       '#theme' => 'item_list',
       '#items' => $items,
-    );
+    ];
 
     return $build;
   }

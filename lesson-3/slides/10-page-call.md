@@ -59,9 +59,9 @@ class DemoRoutingController extends ControllerBase {
    * @return array
    */
   public function infoPage() {
-    $output['hello'] = array(
+    $output['hello'] = [
       '#markup' => 'Quick and dirty text',
-    );
+    ];
     return $output;
   }
 }

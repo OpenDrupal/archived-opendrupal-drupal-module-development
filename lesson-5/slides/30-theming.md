@@ -124,25 +124,25 @@
 
 ```php
 // ViewEditForm.php
-$build['#actions'] = array(
+$build['#actions'] = [
   '#type' => 'dropbutton',
   '#links' => $actions,
-  '#attributes' => array(
-    'class' => array('views-ui-settings-bucket-operations'),
-  ),
-);
+  '#attributes' => [
+    'class' => ['views-ui-settings-bucket-operations'],
+  ],
+];
 ```
 
 ```php
 // CommentForm.php
-$form['author']['homepage'] = array(
+$form['author']['homepage'] = [
   '#type' => 'url',
   '#title' => $this->t('Homepage'),
   '#default_value' => $comment->getHomepage(),
   '#maxlength' => 255,
   '#size' => 30,
   '#access' => $is_admin || ($this->currentUser->isAnonymous() && $anonymous_contact != COMMENT_ANONYMOUS_MAYNOT_CONTACT),
-);
+];
 ```
 
 --vv--
@@ -150,13 +150,13 @@ $form['author']['homepage'] = array(
 # In-line template
 
 ```php
-$build['string'] = array(
+$build['string'] = [
   '#type' => 'inline_template',
   '#template' => '<span class="rainbow">{{ var }}</span>',
-  '#context' => array(
+  '#context' => [
     'var' => $possible_unsafe_var,
-  ),
-);
+  ],
+];
 ```
 
 - Render element: `'#type' => 'inline_template'`

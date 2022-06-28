@@ -30,13 +30,13 @@ class PerformanceForm extends ConfigFormBase {
 
   public function buildForm(array $form, FormStateInterface $form_state) {
     $config = $this->config('system.performance');
-    $form['caching']['page_cache_maximum_age'] = array(
+    $form['caching']['page_cache_maximum_age'] = [
       '#type' => 'select',
       '#title' => $this->('Page cache maximum age'),
       '#default_value' => $config->get('cache.page.max_age'),
       '#options' => $period,
       '#description' => $this->('The maximum time a page can be cached.'),
-    );
+    ];
     ...
 ```
 

@@ -17,7 +17,7 @@ We can get an (incomplete) picture of the hooks by listening-in on the method th
 - Add a call to \Drupal::messenger()->addMessage() at the first line in ModuleHandler::invokeAll() <br>in core/lib/Drupal/Core/Extension/ModuleHandler.php
 
 ```php
-public function invokeAll($hook, array $args = array()) {
+public function invokeAll($hook, array $args = []) {
   \Drupal::messenger()->addMessage("hook_$hook");
   ...
 ```

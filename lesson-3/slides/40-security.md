@@ -36,11 +36,11 @@ $safe_plain_text = Html::escape($unsafe_plain_text);
 $build['plain_text'] = ['#plain_text' => $unsafe_plain_text];
 
 $safe_rich_text = check_markup($unsafe_rich_text, 'basic_html');
-$build['rich_text'] = array(
+$build['rich_text'] = [
   '#type' => 'processed_text',
   '#text' => $unsafe_rich_text,
   '#format' => 'basic_html',
-);
+];
 
 $safe_of_xss = Xss::filter($unsafe_rich_text); 
 $safe_of_xss_admin = Xss::filterAdmin($unsafe_rich_text);
